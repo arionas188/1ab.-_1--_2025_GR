@@ -59,24 +59,26 @@ button {
 .back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px; 
+    right: 20px;
     width: 50px;
     height: 50px;
     border: none;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2); /* Ελαφρώς λευκό και διάφανο */
-    backdrop-filter: blur(10px); /* Θολό εφέ */
-    -webkit-backdrop-filter: blur(5px); /* Υποστήριξη για Safari */
-    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    font-size: 20px; /* Ρύθμισε αν χρειαστεί */
     color: white;
     cursor: pointer;
-    display: none; /* Απόκρυψη αρχικά */
+    display: none;
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;  /* Κεντράρει κάθετα */
+    justify-content: center; /* Κεντράρει οριζόντια */
+    text-align: center;
+    line-height: 50px; /* Ισορροπεί το ύψος */
 }
 
 /* Hover effect */
