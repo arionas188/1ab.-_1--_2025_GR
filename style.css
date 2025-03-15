@@ -55,21 +55,22 @@ button {
     outline: none;
     background: none;
 }
+
 .back-to-top {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 20px; 
     width: 50px;
     height: 50px;
     border: none;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2); /* Ελαφρώς λευκό και διάφανο */
     backdrop-filter: blur(10px); /* Θολό εφέ */
-    font-size: 1rem;
     -webkit-backdrop-filter: blur(5px); /* Υποστήριξη για Safari */
+    font-size: 1rem;
     color: white;
     cursor: pointer;
-    display: none;
+    display: none; /* Απόκρυψη αρχικά */
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
@@ -78,6 +79,7 @@ button {
     justify-content: center;
 }
 
+/* Hover effect */
 .back-to-top:hover {
     background: rgba(255, 255, 255, 0.3);
 }
