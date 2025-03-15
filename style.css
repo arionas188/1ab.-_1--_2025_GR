@@ -65,8 +65,7 @@ button {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2); /* Ελαφρώς λευκό και διάφανο */
     backdrop-filter: blur(10px); /* Θολό εφέ */
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 18px;
     color: white;
     cursor: pointer;
     display: none;
