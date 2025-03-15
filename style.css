@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+.logo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(241,241,241);
+    border-radius: 4px;
+}
+
+.rules, .safety-rules {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid rgb(174,57,46);
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.emoji {
+    font-size: 1em;
+    margin-right: 8px;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2); /* Ελαφρώς λευκό και διάφανο */
+    backdrop-filter: blur(10px); /* Θολό εφέ */
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    display: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
