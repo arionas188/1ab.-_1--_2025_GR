@@ -66,6 +66,7 @@ button {
     background: rgba(255, 255, 255, 0.2); /* Ελαφρώς λευκό και διάφανο */
     backdrop-filter: blur(10px); /* Θολό εφέ */
     font-size: 18px;
+    -webkit-backdrop-filter: blur(5px); /* Υποστήριξη για Safari */
     color: white;
     cursor: pointer;
     display: none;
